@@ -6,7 +6,7 @@ fn try_temporary_mutability() {
         y: i32,
     }
 
-    let mut t = Thing{ x: 0, y: 0};
+    let mut t = Thing{ x: 0 , y: 0 };
 
     t.x = 7;
 
